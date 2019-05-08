@@ -60,19 +60,6 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHo
         });
     }
 
-//    public void onBindViewHolder(MyViewHolder holder, int position) {
-//        final BookModels bookings = notesList.get(position);
-//
-//        holder.namaKendaraan.setText(bookings.getNamaKendaraan());
-//        holder.jenisService.setText(bookings.getJenisService());
-//        holder.waktu.setText(bookings.getTanggal()+" Jam:  "+bookings.getJam());
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(context, bookings.getNamaKendaraan(), Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
 
     @Override
     public int getItemCount() {
