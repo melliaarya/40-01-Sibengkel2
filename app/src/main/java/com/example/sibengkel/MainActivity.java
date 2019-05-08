@@ -81,9 +81,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    private void logout() {
-//        sharedpreferences = getSharedPreferences(
-//                LoginActivity.my_shared_preferences, Context.MODE_PRIVATE);
 //
 //        SharedPreferences.Editor editor = sharedpreferences.edit();
 //        editor.putBoolean(LoginActivity.session_status, false);
