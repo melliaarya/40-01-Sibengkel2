@@ -44,7 +44,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHo
 
         return new MyViewHolder(itemView);
     }
-
+//viewholder
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         final BookModels bookings = notesList.get(position);
