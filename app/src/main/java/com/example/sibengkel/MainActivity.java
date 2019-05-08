@@ -70,9 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
         db = new DatabaseHelper(this);
 
-//        listBookings(db.allBookings());
-//       recyclerView = (RecyclerView) findViewById(R.id.rv_bookings);
-//        adapter = new BookingAdapter(this, db.allBookings(getIntent().getExtras().get("email").toString()));
 //        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
 //        recyclerView.setLayoutManager(mLayoutManager);
 //        recyclerView.setItemAnimator(new DefaultItemAnimator());
