@@ -31,7 +31,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHo
         }
     }
 
-    //update
+    //update booking
     public BookingAdapter(Context context, List<BookModels> notesList) {
         this.context = context;
         this.notesList = notesList;
