@@ -51,7 +51,7 @@ public class BookingList extends AppCompatActivity {
         db = new DatabaseHelper(this);
 
 
-//        listBookings(db.allBookings());
+
         recyclerView = (RecyclerView) findViewById(R.id.rv_bookings);
         adapter = new BookingAdapter(this, db.allBookings(getIntent().getExtras().get("email").toString()));
 
@@ -63,7 +63,7 @@ public class BookingList extends AppCompatActivity {
         DividerItemDecoration decoration = new DividerItemDecoration(getApplicationContext(), VERTICAL);
         recyclerView.addItemDecoration(decoration);
         recyclerView.setAdapter(adapter);
-
+//database booking list
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
             @Override
             public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
