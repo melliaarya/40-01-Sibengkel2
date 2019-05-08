@@ -66,29 +66,7 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         });
 
-        jam1 = findViewById(R.id.inJam);
-//        jam1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                final Calendar c = Calendar.getInstance();
-//                jam = c.get(Calendar.HOUR_OF_DAY);
-////                menit = c.get(Calendar.MINUTE);
-//
-//                TimePickerDialog mTimePicker;
-//                mTimePicker = new TimePickerDialog(ScheduleActivity.this, new TimePickerDialog.OnTimeSetListener() {
-//                    @Override
-//                    public void onTimeSet(TimePicker timePicker, int selectedHour) {
-//                        jam1.setText( selectedHour);
-//                    }
-//                }, jam, true);//Yes 24 hour time
-//                mTimePicker.setTitle("Select Time");
-//                mTimePicker.show();
-//            }
-//        });
-//        {
-//            final Calendar c = Calendar.getInstance();
-//
-//        }
+
 
     }
 
