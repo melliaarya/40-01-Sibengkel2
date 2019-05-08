@@ -116,7 +116,7 @@ public class ScheduleActivity extends AppCompatActivity {
             focusView = tgl1;
             cancel = true;
         }
-
+        //update
         if (cancel) {focusView.requestFocus();
         } else {
             ContentValues adminData = BookController.getInstance().getDataByTanggal(tgl);
