@@ -303,7 +303,7 @@ public class LoginActivity extends AppCompatActivity {
         signin_button.setVisibility(View.VISIBLE);
         passwordRepeat.setVisibility(View.VISIBLE);
     }
-
+    //update signinrequest
     public void signinRequest(View view) {
         nameBox.setVisibility(View.GONE);
         phoneBox.setVisibility(View.GONE);
