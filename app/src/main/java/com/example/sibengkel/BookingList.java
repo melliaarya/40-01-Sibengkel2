@@ -72,14 +72,6 @@ public class BookingList extends AppCompatActivity {
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
                 listBookings.remove(viewHolder.getAdapterPosition());
                 adapter.notifyItemRemoved(viewHolder.getAdapterPosition());
-                String TABLE_BOOK = "tbl_book";
-                int numberofRows = dbsql.delete(TABLE_BOOK, "email=" + email , null);
-
-                if (numberofRows > 0) {
-                    Toast.makeText(BookingList.this, "Delete Successful", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(BookingList.this, "Delete Unsuccessful", Toast.LENGTH_SHORT).show();
-                }
             }
         });
         helper.attachToRecyclerView(recyclerView);
