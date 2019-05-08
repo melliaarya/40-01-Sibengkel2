@@ -94,7 +94,7 @@ public class ScheduleActivity extends AppCompatActivity {
             focusView = tgl1;
             cancel = true;
         }
-        //update
+        //update booking
         if (cancel) {focusView.requestFocus();
         } else {
             ContentValues adminData = BookController.getInstance().getDataByTanggal(tgl);
