@@ -38,7 +38,7 @@ public class ScheduleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_booking);
 
         initiateCoreApp();
-
+//menampilkan email
         email = (TextView)findViewById(R.id.emailTxt);
         email.setText(getIntent().getExtras().get("email").toString());
 
