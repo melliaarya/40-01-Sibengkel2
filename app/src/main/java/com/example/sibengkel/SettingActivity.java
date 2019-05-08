@@ -61,7 +61,7 @@ public class SettingActivity extends AppCompatActivity {
         sharedpreferences = getSharedPreferences(my_shared_preferences, Context.MODE_PRIVATE);
         String email = sharedpreferences.getString(TAG_EMAIL, null);
         content = UserController.getInstance().getDataByEmail(email);
-
+        //update txt
         txtNama.setText(content.getAsString("name"));
         txtEmail.setText(content.getAsString("email"));
         txtPassword.setText(content.getAsString("password"));
