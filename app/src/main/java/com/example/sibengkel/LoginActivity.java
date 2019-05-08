@@ -252,7 +252,7 @@ public class LoginActivity extends AppCompatActivity {
         protected void onPostExecute(final Boolean success) {
             mAuthTask = null;
             showProgress(false);
-
+            //update terbaru
             if (success) {
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 intent.putExtra(TAG_ID, id);
