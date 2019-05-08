@@ -120,6 +120,7 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         }
     }
+    //menampilkan waktu
     private String getCurrentTime() {
         Date c = Calendar.getInstance().getTime();
 
