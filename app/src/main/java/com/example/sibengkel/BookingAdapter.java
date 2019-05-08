@@ -60,7 +60,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHo
         });
     }
 
-
+//itemcount
     @Override
     public int getItemCount() {
         return notesList.size();
