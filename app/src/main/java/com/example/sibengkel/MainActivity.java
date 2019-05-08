@@ -48,16 +48,6 @@ public class MainActivity extends AppCompatActivity {
         txt_profile_name = (TextView) findViewById(R.id.txt_profile_name);
         txt_profile_name.setText(getIntent().getExtras().get("name").toString());
 
-
-
-//        btn_logout = (Button) findViewById(R.id.btn_logout);
-//        btn_logout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                logout();
-//            }
-//        });
-
         button_booking_list = (Button) findViewById(R.id.button_booking_list);
         button_booking_list.setOnClickListener(new View.OnClickListener() {
             @Override
