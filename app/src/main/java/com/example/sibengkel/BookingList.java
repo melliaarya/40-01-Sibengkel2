@@ -73,6 +73,8 @@ public class BookingList extends AppCompatActivity {
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
                 listBookings.remove(viewHolder.getAdapterPosition());
                 adapter.notifyItemRemoved(viewHolder.getAdapterPosition());
+                intent = new Intent(BookingList.this, MainActivity.class);
+                startActivity(intent);
             }
         });
         helper.attachToRecyclerView(recyclerView);
