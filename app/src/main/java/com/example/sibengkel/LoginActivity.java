@@ -371,7 +371,7 @@ public class LoginActivity extends AppCompatActivity {
                     cancel = true;
                 }
             }
-
+            //update keterangan kolom tidak boleh kosong
             if (TextUtils.isEmpty(full_name)) {
                 nameBox.setError(getString(R.string.error_field_required));
                 focusView = nameBox;
