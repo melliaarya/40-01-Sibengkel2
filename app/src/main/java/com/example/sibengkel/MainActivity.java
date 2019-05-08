@@ -87,10 +87,7 @@ public class MainActivity extends AppCompatActivity {
 //        editor.putString(LoginActivity.TAG_ID, null);
 //        editor.putString(LoginActivity.TAG_EMAIL, null);
 //        editor.putString(LoginActivity.TAG_NAME, null);
-//        editor.putString(LoginActivity.TAG_PHONE, null);
-//        editor.putString(LoginActivity.TAG_ADDRESS, null);
-//        editor.commit();
-//
+
 
 
     public void pembelian(View view){
