@@ -70,13 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
         db = new DatabaseHelper(this);
 
-//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-//        recyclerView.setLayoutManager(mLayoutManager);
-//        recyclerView.setItemAnimator(new DefaultItemAnimator());
-//        DividerItemDecoration decoration = new DividerItemDecoration(getApplicationContext(), VERTICAL);
-//        recyclerView.addItemDecoration(decoration);        recyclerView.setAdapter(adapter);
-
-
 //        Log.d("book",String.valueOf(values));
 
 
