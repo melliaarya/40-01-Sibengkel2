@@ -79,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
                 return false;
             }
         });
-
+        //update
         mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
