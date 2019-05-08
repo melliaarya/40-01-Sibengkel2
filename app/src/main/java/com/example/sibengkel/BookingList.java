@@ -29,6 +29,7 @@ import static android.widget.LinearLayout.VERTICAL;
 import static com.example.sibengkel.utils.DatabaseContents.TABLE_BOOK;
 
 public class BookingList extends AppCompatActivity {
+//bookinglist
 
     SharedPreferences sharedpreferences;
     Intent intent;
