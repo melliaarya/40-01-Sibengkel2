@@ -91,10 +91,7 @@ public class MainActivity extends AppCompatActivity {
 //        editor.putString(LoginActivity.TAG_ADDRESS, null);
 //        editor.commit();
 //
-//        intent = new Intent(MainActivity.this, LoginActivity.class);
-//        finish();
-//        startActivity(intent);
-//    }
+
 
     public void pembelian(View view){
         startActivity(new Intent(this, PembelianActivity.class));
