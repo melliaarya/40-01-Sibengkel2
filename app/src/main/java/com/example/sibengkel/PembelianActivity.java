@@ -68,6 +68,7 @@ public class PembelianActivity extends AppCompatActivity {
                  * Inisialisasi adapter dan data barang dalam bentuk ArrayList
                  * dan mengeset Adapter ke dalam RecyclerView
                  */
+                //update
                 adapter = new PembelianAdapter(daftarBarang, PembelianActivity.this);
                 rvView.setAdapter(adapter);
             }
