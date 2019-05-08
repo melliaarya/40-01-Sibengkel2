@@ -104,6 +104,17 @@ public class LoginActivity extends AppCompatActivity {
         register_button = (Button) findViewById(R.id.register_button);
         signin_button = (Button) findViewById(R.id.signin_button);
         passwordRepeat = (EditText) findViewById(R.id.passwordRepeat);
+
+//        signup_button = (Button) findViewById(R.id.signup_button);
+//        signup_button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                attemptRegister();
+//            }
+//        });
+//        register_button = (Button) findViewById(R.id.register_button);
+//        signin_button = (Button) findViewById(R.id.signin_button);
+//        passwordRepeat = (EditText) findViewById(R.id.passwordRepeat);
     }
 
     private void initiateCoreApp() {
