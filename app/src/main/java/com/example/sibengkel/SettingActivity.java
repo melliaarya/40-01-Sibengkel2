@@ -67,7 +67,7 @@ public class SettingActivity extends AppCompatActivity {
         txtPassword.setText(content.getAsString("password"));
         txtNoHp.setText(content.getAsString("phone"));
         txtAlamat.setText(content.getAsString("address"));
-
+        //update function
         buttonSaveProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
