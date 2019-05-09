@@ -44,6 +44,7 @@ public class LoginActivity extends AppCompatActivity {
     private View mProgressView;
     private View mLoginFormView;
 
+    //variable login
     public final static String TAG_ID = "id";
     public final static String TAG_EMAIL = "email";
     public final static String TAG_NAME = "name";
