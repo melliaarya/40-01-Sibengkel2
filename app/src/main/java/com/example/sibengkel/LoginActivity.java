@@ -169,9 +169,7 @@ public class LoginActivity extends AppCompatActivity {
         return password.length() > 2;
     }
 
-    /**
-     * Shows the progress UI and hides the login form.
-     */
+    //menunjukkan UI progress dan menghide form login
     @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
     private void showProgress(final boolean show) {
         // On Honeycomb MR2 we have the ViewPropertyAnimator APIs, which allow
