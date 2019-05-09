@@ -64,6 +64,7 @@ public class BookingList extends AppCompatActivity {
         recyclerView.addItemDecoration(decoration);
         recyclerView.setAdapter(adapter);
 //database booking list
+        //fungsi hapus
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
             @Override
             public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
