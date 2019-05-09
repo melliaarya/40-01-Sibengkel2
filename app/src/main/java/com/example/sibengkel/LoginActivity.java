@@ -309,6 +309,7 @@ public class LoginActivity extends AppCompatActivity {
         passwordRepeat.setVisibility(View.GONE);
     }
 
+        //insert regis form
         private void attemptRegister() {
             if (mAuthTask != null) {
                 return;
