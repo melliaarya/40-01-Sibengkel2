@@ -78,6 +78,7 @@ public class SettingActivity extends AppCompatActivity {
                 c.put("password", txtPassword.getText().toString());
                 c.put("phone", txtNoHp.getText().toString());
                 c.put("address", txtAlamat.getText().toString());
+                //
 
                 mydb.update("tbl_users",c);
                 Toast.makeText(SettingActivity.this, "Profile Updated",Toast.LENGTH_SHORT).show();
