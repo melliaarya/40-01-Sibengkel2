@@ -21,7 +21,7 @@ import com.example.sibengkel.utils.DatabaseHelper;
 import java.util.Set;
 
 public class SettingActivity extends AppCompatActivity {
-
+    //set variable
     DatabaseHelper mydb;
     EditText txtNama, txtEmail, txtNoHp, txtAlamat, txtPassword;
     Button buttonSaveProfile, buttonLogout;
