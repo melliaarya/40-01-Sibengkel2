@@ -269,7 +269,7 @@ public class LoginActivity extends AppCompatActivity {
             showProgress(false);
         }
     }
-
+    //session sharedpreference
     private void checkSession() {
         sharedpreferences = getSharedPreferences(my_shared_preferences, Context.MODE_PRIVATE);
         session = sharedpreferences.getBoolean(session_status, false);
