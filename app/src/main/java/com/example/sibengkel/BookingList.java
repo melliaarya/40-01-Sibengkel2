@@ -81,7 +81,7 @@ public class BookingList extends AppCompatActivity {
         helper.attachToRecyclerView(recyclerView);
 
     }
-
+    //connect to database
     private void initiateCoreApp() {
         Database database = new DatabaseHelper(this);
         BookController.setDatabase(database);
